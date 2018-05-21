@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textviewll"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText android:id="@+id/txtTest0"
+        android:imeOptions="actionGo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-去往"
+        />
+
+    <EditText android:id="@+id/txtTest1"
+        android:imeOptions="actionSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-搜索"
+        />
+
+    <EditText android:id="@+id/txtTest2"
+        android:imeOptions="actionSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-发送"
+        />
+    <EditText android:id="@+id/txtTest3"
+        android:imeOptions="actionNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-下一个"
+        />
+    <EditText android:id="@+id/txtTest4"
+        android:imeOptions="actionDone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-完成"
+        />
+    <EditText android:id="@+id/txtTest5"
+        android:imeOptions="actionUnspecified"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="特殊按钮-未指定"
+        />
+</LinearLayout>
+

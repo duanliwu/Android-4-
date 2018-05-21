@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.xiaoxiaoduan.myapplication.AutolinkActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拨打手机：17602117491"
+        android:background="#00ff00"
+        android:autoLink="phone"
+        android:height="60dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送邮件：duanliwu@126.com"
+        android:background="#00d"
+        android:autoLink="email"
+        android:height="60dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开链接dlw的博客：https://blog.csdn.net/xiaoxiaoDlw"
+        android:background="#fff0"
+        android:autoLink="web"
+        android:height="60dp"
+        />
+
+</LinearLayout>

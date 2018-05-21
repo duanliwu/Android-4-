@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xiaoxiaoduan.handlist.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息通知"
+        />
+    <Button
+        android:id="@+id/home_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hand消息"
+        />
+    <Button
+        android:id="@+id/home_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知消息"
+        />
+    <Button
+        android:id="@+id/home_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity之间的传值"
+        />
+
+</LinearLayout>

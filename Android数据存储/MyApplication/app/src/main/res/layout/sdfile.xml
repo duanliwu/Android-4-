@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xiaoxiaoduan.myapplication.SdfileActivity">
+
+    <EditText android:id="@+id/sdfile_et0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要保存到SD卡的内容">
+    </EditText>
+    <Button   android:id="@+id/sdfile_button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存输入内容到SD卡">
+    </Button>
+    <Button   android:id="@+id/sdfile_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除SD卡保存文件的内容">
+    </Button>
+    <Button   android:id="@+id/sdfile_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除SD卡中保存的文件">
+    </Button>
+
+</LinearLayout>
